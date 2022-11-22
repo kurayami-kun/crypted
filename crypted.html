@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CRYPTED</title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="CRYPTED is a website to encrypting text using a secret keyword."/>
+        <meta name="viewport" content="user-scalable=0"/>
+        <link rel="stylesheet" id="css" href="main_pc.css"/>
+        <link rel="icon" href="https://iconarchive.com/download/i87095/graphicloads/colorful-long-shadow/Html-tags.ico"/>
+        <script>
+            function detect(){
+                let device = navigator.userAgent.toLowerCase().match(/mobile/i);
+                return device;
+            }
+            if(detect() == 'mobile'){
+                document.getElementById('css').href = 'main_mobile.css';
+            }
+        </script>
+    </head>
+    <body>
+        <h1>CRYPTED</h1>
+        <br/>
+        <div>
+            <a href="encrypting.html"><button type="button">encrypting text</button></a>
+            <br/>
+            <a href="decrypting.html"><button type="button">decrypting text</button></a>
+        </div>
+    </body>
+</html>

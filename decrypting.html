@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CRYPTED/decrypting</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="user-scalable=0"/>
+        <link rel="stylesheet" id="css" href="home_pc.css"/>
+        <link rel="icon" href="https://iconarchive.com/download/i87095/graphicloads/colorful-long-shadow/Html-tags.ico"/>
+        <script>
+            function detect(){
+                let device = navigator.userAgent.toLowerCase().match(/mobile/i);
+                return device;
+            }
+            if(detect() == 'mobile'){
+                document.getElementById('css').href = 'home_mobile.css';
+            }
+        </script>
+    </head>
+    <body>
+        <h1><a href="crypted.html">CRYPTED</a></h1>
+        <br/>
+        <div>
+            <input id="inpt1" type="text" placeholder="encrypted text"/>
+            <br/>
+            <input id="inpt2" type="password" placeholder="cipher"/>
+            <br/>
+            <input id="inpt3" type="text" placeholder="original text" disabled/>
+            <br/>
+            <button>decrypting</button>
+        </div>
+        <script src="decrypting.js"></script>
+    </body>
+</html>

@@ -12,10 +12,9 @@ input{
     transform:translate(50%,50%);
     font-size:16px;
     padding:10px;
-    width:230px;
+    width:270px;
     border:2px white solid;
     border-radius:5px;
-    font-family:Times-Roman;
 }
 h1{
     text-align:center;

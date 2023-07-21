@@ -61,7 +61,7 @@ button{
     font-size:14px;
     font-weight:bold;
     cursor:pointer;
-    transition:100ms all ease-in-out;
+    
 }
 button:active{
    transform:scale(99%,96%);

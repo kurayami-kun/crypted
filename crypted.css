@@ -63,7 +63,7 @@ button{
     cursor:pointer;
 }
 button:active{
-   transform:scale(98%,95%);
+   transform:scale(95%);
    background-color:rgb(200,200,200);
    -webkit-tap-highlight-color:transparent;   
 }
